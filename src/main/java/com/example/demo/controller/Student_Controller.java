@@ -21,7 +21,7 @@ import com.example.demo.model.Student_Vali;
 import com.example.demo.service.Service_Interface;
 
 @RestController
-public class Student_Controller {
+public class Student {
 
 	@Autowired
 	private Service_Interface service;
