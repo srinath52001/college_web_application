@@ -6,6 +6,6 @@ import com.example.demo.model.Student_Reg;
 
 public interface College_repo extends JpaRepository<Student_Reg, Integer>{
 
-	Student_Reg findByEmail(String email);
+	Student_Reg findByEmail(String mail);
 	
 }
